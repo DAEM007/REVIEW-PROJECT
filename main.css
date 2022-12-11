@@ -1,0 +1,58 @@
+
+/* ALL STYLES */
+body {
+    background-color: rgb(187, 176, 250);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+}
+
+section {
+    flex: 0 0 80%;
+}
+
+.heading {
+    text-align: center;
+    color: #333;
+}
+
+.review-card {
+    background-color: #ffff;
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px 0;
+    box-shadow: rgb(154, 152, 152) 3px 4px 5px;
+}
+
+.underline {
+    border-bottom: 2px solid #333;
+    width: 5%;
+    margin-left: 48%;
+}
+
+.image-container {
+    background: url('./images/pexels-rachel-claire-4992697.jpg')center/cover no-repeat;
+    box-shadow: rgb(130, 112, 234) inset -3px 4px;
+    width: 15vh;
+    height: 15vh;
+    border-radius: 50%;
+    margin-left: 45%;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h5 {
+    text-transform: uppercase;
+    color: rgb(130, 112, 234);
+}
+
+button {
+    cursor: pointer;
+}
+
+
